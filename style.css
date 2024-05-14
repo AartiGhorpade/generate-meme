@@ -1,0 +1,39 @@
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.card {
+  width: auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 34px 24px;
+  margin-top: 24px;
+  max-height: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;  
+}
+#generate-btn {
+  background-color: cadetblue;
+  color: white;
+  font-size: 24px;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+img {
+  height: 30rem;
+  margin-top: 24px;
+}
+.author-name {
+  font-size: 24px;
+  font-weight: 600;
+}
+.meme-title {
+  font-size: 44px;
+  font-weight: 700;
+}
